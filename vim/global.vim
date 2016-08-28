@@ -74,6 +74,9 @@ nnoremap <leader><esc> :noh<return><esc>		" clean last search
 
 set textwidth=120
 
+" run python shortcut
+nnoremap <silent> <F5> :!clear;python %<CR>
+
 " display numbers in the tabs
 set showtabline=2  " 0, 1 or 2; when to use a tab pages line
 set tabline=%!MyTabLine()  " custom tab pages line

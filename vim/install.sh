@@ -13,4 +13,7 @@ ln -s ~/git/dotfiles/vim/global.vim ~/.vim/global.vim
 ln -s ~/git/dotfiles/vim/vimrc ~/.vimrc
 ln -s ~/git/dotfiles/vim/gvimrc ~/.gvimrc
 ln -s ~/git/dotfiles/vim/editorconfig ~/.editorconfig
-mkdir -p ~/.vim/{.backup,.swap,.undo}
+
+mkdir -p ~/.vim/.backup
+mkdir -p ~/.vim/.swap
+mkdir -p ~/.vim/.undo

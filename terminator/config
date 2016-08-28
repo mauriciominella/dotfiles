@@ -1,9 +1,11 @@
 [global_config]
   always_split_with_profile = True
+  borderless = False
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   focus = system
-  handle_size = 1
+  handle_size = 0.5
   inactive_color_offset = 0.78
+  title_hide_sizetext = True
   title_transmit_bg_color = "#be5046"
 [keybindings]
 [layouts]
@@ -19,14 +21,14 @@
 [profiles]
   [[default]]
     background_image = None
-    show_titlebar = False
     use_theme_colors = True
+    scrollbar_position = disabled
   [[theone]]
-    background_color = "#272b33"
+    handle_size = 1
+    scrollbar_position = disabled
     background_image = None
     cursor_color = "#abb2c0"
     font = Monospace 12
-    foreground_color = "#abb2c0"
     palette = "#272b33:#e06c75:#98c379:#d19a66:#61afef:#c678dd:#56b6c2:#abb2c0:#272b33:#e5c07b:#5c6370:#828997:#abb2bf:#c678dd:#abb2bf:#abb2c0"
     show_titlebar = False
     use_system_font = False
