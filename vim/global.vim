@@ -7,6 +7,8 @@ let mapleader = ","			" map leader key to ','
 "set term=xterm-256color
 set termencoding=utf-8
 
+let g:EditorConfig_core_mode = 'external_command'
+
 """"""""""""""""""""""""""""""
 " Appearance
 """"""""""""""""""""""""""""""
