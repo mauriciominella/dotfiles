@@ -40,6 +40,7 @@ Plugin 'regedarek/ZoomWin'			" zoom window
 "Plugin 'tomasr/molokai'
 Plugin 'jiangmiao/auto-pairs'			" auto pairs
 Plugin 'maksimr/vim-jsbeautify'			" js formatter
+Plugin 'geoffharcourt/vim-matchit'		" match elements
 
 
 " All of your Plugins must be added before the following line
