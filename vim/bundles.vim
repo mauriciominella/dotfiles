@@ -45,7 +45,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'		" snipmate
 Plugin 'tomtom/tlib_vim'			" snipmate
 Plugin 'garbas/vim-snipmate'			" snipmate
 Plugin 'honza/vim-snippets'			" snipmate
-Plugin 'scrooloose/nerdcommenter'		" commenter
+Plugin 'vim-scripts/tComment'			" Comment easily with gcc
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
