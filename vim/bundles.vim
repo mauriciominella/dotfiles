@@ -46,6 +46,7 @@ Plugin 'tomtom/tlib_vim'			" snipmate
 Plugin 'garbas/vim-snipmate'			" snipmate
 Plugin 'honza/vim-snippets'			" snipmate
 Plugin 'vim-scripts/tComment'			" Comment easily with gcc
+Plugin 'pangloss/vim-javascript'		" Js highlighting
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
