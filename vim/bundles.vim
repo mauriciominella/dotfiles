@@ -44,9 +44,8 @@ Plugin 'geoffharcourt/vim-matchit'		" match elements
 Plugin 'MarcWeber/vim-addon-mw-utils'		" snipmate
 Plugin 'tomtom/tlib_vim'			" snipmate
 Plugin 'garbas/vim-snipmate'			" snipmate
-
-  " Optional:
-  Plugin 'honza/vim-snippets'
+Plugin 'honza/vim-snippets'			" snipmate
+Plugin 'scrooloose/nerdcommenter'		" commenter
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
