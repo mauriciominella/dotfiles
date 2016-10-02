@@ -49,6 +49,7 @@ Plugin 'vim-scripts/tComment'			" Comment easily with gcc
 Plugin 'pangloss/vim-javascript'		" Js highlighting
 Plugin 'simeji/winresizer'			" Easy window resize
 Plugin 'szw/vim-maximizer'			" Toggle window maximize
+Plugin 'janko-m/vim-test'			" Run tests with vim
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
