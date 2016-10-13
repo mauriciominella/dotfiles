@@ -51,6 +51,7 @@ Plugin 'simeji/winresizer'			" Easy window resize
 Plugin 'szw/vim-maximizer'			" Toggle window maximize
 Plugin 'vimwiki/vimwiki'			" Notes plugin
 Plugin 'dkprice/vim-easygrep'			" Find and replace in the whole project
+Plugin 'janko-m/vim-test'			" Run tests with vim
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

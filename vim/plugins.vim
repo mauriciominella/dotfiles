@@ -99,3 +99,11 @@ vnoremap <silent> # :<C-U>
 \gvy?<C-R><C-R>=substitute(
 \escape(@", '?\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
 \gV:call setreg('"', old_reg, old_regtype)<CR>
+
+
+""""""""""""""""""""""""""""""
+" vim-test
+""""""""""""""""""""""""""""""
+let g:test#javascript#mocha#file_pattern = '\v^spec/.*spec\.(js|jsx|coffee)$'
+command Test :TestFile --compilers js:babel-register<CR>
+nmap <silent> <leader>q :Test<CR>
