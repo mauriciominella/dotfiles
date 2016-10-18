@@ -6,6 +6,8 @@ sudo apt-get install zsh -y
 
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+#tmux
+sudo apt-get install tmux -y
 
 # It adds two context menu items in nautlius so you can right click and choose "Resize Image". (The other is "Rotate Image").
 sudo apt-get install nautilus-image-converter -y
