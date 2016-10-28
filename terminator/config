@@ -2,8 +2,9 @@
   always_split_with_profile = True
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   focus = system
-  handle_size = 4
+  handle_size = 1
   inactive_color_offset = 0.78
+  scroll_tabbar = True
   title_hide_sizetext = True
   title_transmit_bg_color = "#be5046"
 [keybindings]
