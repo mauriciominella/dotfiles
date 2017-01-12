@@ -14,10 +14,10 @@ let g:EditorConfig_core_mode = 'external_command'
 """"""""""""""""""""""""""""""
 set t_Co=256 " Explicitly tell vim that the terminal supports 256 colors"
 colorscheme onedark
-"colorscheme solarized
+" colorscheme solarized
 
 let g:airline_theme='onedark'
-let g:onedark_termcolors=16
+let g:onedark_termcolors=256
 set background=dark
 
 
