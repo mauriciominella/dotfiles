@@ -1,11 +1,11 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": ", b",
+        "key": "alt+b",
         "command": "workbench.action.maximizeEditor"
     },
     {
-        "key": ", e",
+        "key": "alt+e",
         "command": "workbench.view.explorer"
     },
     {
@@ -53,35 +53,7 @@
         "when": "listFocus"
     },
     {
-        "key": "m m",
-        "command": "renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus"
-    },
-    {
-        "key": "f2",
-        "command": "-renameFile",
-        "when": "explorerViewletVisible && filesExplorerFocus"
-    },
-    {
-        "key": "m d",
-        "command": "deleteFile",
-        "when": "explorerViewletVisible && filesExplorerFocus"
-    },
-    {
-        "key": "shift+delete",
-        "command": "-deleteFile",
-        "when": "explorerViewletVisible && filesExplorerFocus"
-    },
-    {
-        "key": "m a",
-        "command": "explorer.newFile"
-    },
-    {
-        "key": ", f",
+        "key": "alt+f",
         "command": "workbench.files.action.focusFilesExplorer"
-    },
-    {
-        "key": "m d",
-        "command": "explorer.newFolder"
     }
 ]
