@@ -65,7 +65,7 @@
         "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+a p",
+        "key": "ctrl+q p",
         "command": "editor.action.clipboardPasteAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -75,7 +75,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+a y",
+        "key": "ctrl+q y",
         "command": "editor.action.clipboardCopyAction",
         "when": "editorTextFocus"
     },
@@ -83,5 +83,27 @@
         "key": "ctrl+c",
         "command": "-editor.action.clipboardCopyAction",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+a o",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+escape",
+        "command": "search.action.cancel",
+        "when": "listFocus && searchViewletVisible"
+    },
+    {
+        "key": "escape",
+        "command": "-search.action.cancel",
+        "when": "listFocus && searchViewletVisible"
+    },
+    {
+        "key": "ctrl+q m",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
