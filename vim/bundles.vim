@@ -55,6 +55,7 @@ Plugin 'janko-m/vim-test'			" Run tests with vim
 Plugin 'christoomey/vim-tmux-navigator'		" Tmux seamless navigation
 Plugin 'elmcast/elm-vim'			" Elm lang plugin
 Plugin 'Valloric/YouCompleteMe'     " Auto complete
+" Plugin 'python-mode/python-mode'     " Set of features to work with python
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
