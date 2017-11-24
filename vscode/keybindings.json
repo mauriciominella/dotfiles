@@ -133,5 +133,17 @@
     {
         "key": "ctrl+f",
         "command": "-actions.find"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "workbench.action.decreaseViewSize"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "workbench.action.increaseViewSize"
+    },
+    {
+        "key": "ctrl+w ctrl+w",
+        "command": "workbench.action.navigateEditorGroups"
     }
 ]

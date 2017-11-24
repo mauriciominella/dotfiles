@@ -12,5 +12,6 @@
     "vim.disableAnnoyingGcMessage": true,
     "editor.minimap.enabled": false,
     "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "extensions.ignoreRecommendations": false
 }
