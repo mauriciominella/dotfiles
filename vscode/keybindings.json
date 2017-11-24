@@ -143,7 +143,7 @@
         "command": "workbench.action.increaseViewSize"
     },
     {
-        "key": "ctrl+w ctrl+w",
+        "key": "ctrl+a ctrl+a",
         "command": "workbench.action.navigateEditorGroups"
     }
 ]
