@@ -135,11 +135,11 @@
         "command": "-actions.find"
     },
     {
-        "key": "ctrl+shift+left",
+        "key": "shift+left",
         "command": "workbench.action.decreaseViewSize"
     },
     {
-        "key": "ctrl+shift+right",
+        "key": "shift+right",
         "command": "workbench.action.increaseViewSize"
     },
     {
