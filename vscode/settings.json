@@ -1,6 +1,6 @@
 {
     "vim.disableAnnoyingNeovimMessage": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -15,5 +15,6 @@
     "editor.renderWhitespace": "all",
     "extensions.ignoreRecommendations": false,
     "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.colorTheme": "Visual Studio Dark"
 }

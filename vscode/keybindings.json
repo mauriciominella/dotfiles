@@ -15,7 +15,7 @@
     {
         "key": "j",
         "command": "list.focusDown",
-        "when": "listFocus"
+        "when": "listFocus && !inputFocus"
     },
     {
         "key": "down",
@@ -25,7 +25,7 @@
     {
         "key": "k",
         "command": "list.focusUp",
-        "when": "listFocus"
+        "when": "listFocus && !inputFocus"
     },
     {
         "key": "up",
@@ -35,7 +35,7 @@
     {
         "key": "l",
         "command": "list.expand",
-        "when": "listFocus"
+        "when": "listFocus && !inputFocus"
     },
     {
         "key": "right",
@@ -45,7 +45,7 @@
     {
         "key": "h",
         "command": "list.collapse",
-        "when": "listFocus"
+        "when": "listFocus && !inputFocus"
     },
     {
         "key": "left",
