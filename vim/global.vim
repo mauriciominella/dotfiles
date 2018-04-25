@@ -26,7 +26,7 @@ set number
 set hlsearch				" highlight search terms
 set list listchars=tab:»·,trail:·	" show hidden tabs and white spaces
 
-com! formatjson %!python -m json.tool
+com! Formatjson %!python -m json.tool
 
 """"""""""""""""""""""""""""""
 " Gathers vim files
