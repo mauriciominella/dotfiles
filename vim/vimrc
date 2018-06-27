@@ -9,6 +9,8 @@ set softtabstop=4   " Sets the number of columns for a TAB
 
 set expandtab       " Expand TABs to spaces
 
+set tw=210          " Increasing the column size. The automatic line breaks were quite annoying
+
 " content of this file is loaded BEFORE all the plugins
 source ~/.vim/bundles.vim  " vundle plugins list
 source ~/.vim/global.vim   " general global configuration
