@@ -56,6 +56,8 @@ Plugin 'christoomey/vim-tmux-navigator'		" Tmux seamless navigation
 Plugin 'elmcast/elm-vim'			" Elm lang plugin
 Plugin 'Valloric/YouCompleteMe'     " Auto complete
 Plugin 'neo4j-contrib/cypher-vim-syntax'     " cypher syntax support
+Plugin 'xolox/vim-misc'     " vim notes dependency 
+Plugin 'xolox/vim-notes'     " Easy note taking vim plugin 
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
