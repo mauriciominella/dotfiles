@@ -107,3 +107,9 @@ vnoremap <silent> # :<C-U>
 let g:test#javascript#mocha#file_pattern = '\v^spec/.*spec\.(js|jsx|coffee)$'
 command Test :TestFile --compilers js:babel-register<CR>
 nmap <silent> <leader>q :Test<CR>
+
+
+""""""""""""""""""""""""""""""
+" vim-notes
+""""""""""""""""""""""""""""""
+:let g:notes_directories = ['~/Notes/mminella-dev-notes']
