@@ -1,6 +1,6 @@
 # ctrl-p plugin dependency
-apt-get install silversearcher-ag -y
-apt-get install gnome-vim -y
+# apt-get install silversearcher-ag -y
+# apt-get install gnome-vim -y
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 

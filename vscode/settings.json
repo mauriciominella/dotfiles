@@ -1,6 +1,6 @@
 {
     "vim.disableAnnoyingNeovimMessage": true,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -19,5 +19,11 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "vim.statusBarColorControl": true,
     "vim.visualstar": true,
-    "vim.easymotion": true
+    "vim.easymotion": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always"
 }

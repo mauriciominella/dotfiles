@@ -76,7 +76,7 @@ nnoremap <leader>bp :bprevious<CR>			" switch to previous buffer
 
 nnoremap <leader><esc> :noh<return><esc>		" clean last search
 
-set textwidth=120
+set textwidth=210
 
 " run python shortcut
 nnoremap <silent> <F5> :!clear;python %<CR>

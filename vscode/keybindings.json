@@ -65,7 +65,7 @@
         "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+q p",
+        "key": "backspace ctrl+",
         "command": "editor.action.clipboardPasteAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -73,11 +73,6 @@
         "key": "ctrl+v",
         "command": "-editor.action.clipboardPasteAction",
         "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+q y",
-        "command": "editor.action.clipboardCopyAction",
-        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+c",
@@ -145,5 +140,15 @@
     {
         "key": "ctrl+a ctrl+a",
         "command": "workbench.action.navigateEditorGroups"
+    },
+    {
+        "key": "alt+r",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "enter",
+        "command": "-renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
     }
 ]
