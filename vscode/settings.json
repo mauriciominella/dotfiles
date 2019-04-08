@@ -1,6 +1,6 @@
 {
     "vim.disableAnnoyingNeovimMessage": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -25,5 +25,7 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "javascript.updateImportsOnFileMove.enabled": "always"
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.autoFixOnSave": true,
+    "editor.tabSize": 2
 }

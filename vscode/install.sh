@@ -1,2 +1,2 @@
-ln -s ~/git/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
-ln -s ~/git/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -s ~/git/dotfiles/vscode/keybindings.json ~/.config/Code/User/keybindings.json
+ln -s ~/git/dotfiles/vscode/settings.json ~/.config/Code/User/settings.json

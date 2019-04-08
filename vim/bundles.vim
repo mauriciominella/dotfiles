@@ -34,7 +34,7 @@ Plugin 'Lokaltog/vim-easymotion'		" simple search
 Plugin 'brettof86/vim-swigjs'			" swig syntax
 Plugin 'gabrielelana/vim-markdown'		" markdown syntax
 Plugin 'terryma/vim-multiple-cursors'		" multiple cursors
-Plugin 'fatih/vim-go'				" golang
+"Plugin 'fatih/vim-go'				" golang
 Plugin 'henrik/vim-qargs' 			" copy quicklist to args
 Plugin 'regedarek/ZoomWin'			" zoom window
 "Plugin 'tomasr/molokai'
@@ -53,9 +53,8 @@ Plugin 'vimwiki/vimwiki'			" Notes plugin
 Plugin 'dkprice/vim-easygrep'			" Find and replace in the whole project
 "Plugin 'janko-m/vim-test'			" Run tests with vim
 Plugin 'christoomey/vim-tmux-navigator'		" Tmux seamless navigation
-Plugin 'elmcast/elm-vim'			" Elm lang plugin
+" Plugin 'elmcast/elm-vim'			" Elm lang plugin
 "Plugin 'Valloric/YouCompleteMe'     " Auto complete
-Plugin 'neo4j-contrib/cypher-vim-syntax'     " cypher syntax support
 Plugin 'xolox/vim-misc'     " vim notes dependency 
 Plugin 'xolox/vim-notes'     " Easy note taking vim plugin 
 
