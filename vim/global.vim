@@ -9,6 +9,8 @@ set termencoding=utf-8
 
 let g:ycm_server_python_interpreter = '/usr/bin/python'
 let g:EditorConfig_core_mode = 'external_command'
+let g:ale_fixers = ['prettier', 'eslint']
+let g:ale_fix_on_save = 1
 
 """"""""""""""""""""""""""""""
 " Appearance
@@ -81,6 +83,12 @@ set textwidth=210
 " run python shortcut
 nnoremap <silent> <F5> :!clear;python %<CR>
 nnoremap <F9> :.w !bash<CR>
+
+" navigate between eslint errors provided by ale plugin
+nmap <silent> <C-k> :ALENext<cr>
+nmap <silent> <C-j> :ALEXPrevious<cr>
+
+nnoremap <leader>g :exe 'Ag!' expand('<cword>')<cr>
 
 " display numbers in the tabs
 set showtabline=2  " 0, 1 or 2; when to use a tab pages line

@@ -12,7 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'joshdick/onedark.vim'	" surround
 Plugin 'joshdick/airline-onedark.vim'	" surround
 Plugin 'tpope/vim-surround'	" surround
-Plugin 'othree/yajs.vim'	" js highlight theme
+" Plugin 'othree/yajs.vim'	" js highlight theme
 "Plugin 'othree/es.next.syntax.vim'	" es7 highlight theme
 "Plugin 'scrooloose/syntastic'	" linter
 "Plugin 'pmsorhaindo/syntastic-local-eslint.vim'	" use local eslint
@@ -26,7 +26,7 @@ Plugin 'vim-airline/vim-airline-themes'		" status line theme
 "Plugin 'airblade/vim-gitgutter'			" git status
 Plugin 'scrooloose/nerdtree'			" file system explorer
 Plugin 'ctrlpvim/ctrlp.vim' 			" fuzzy file finder
-Plugin 'editorconfig/editorconfig-vim' 		" editor config
+" Plugin 'editorconfig/editorconfig-vim' 		" editor config
 Plugin 'rking/ag.vim'				" search
 Plugin 'flazz/vim-colorschemes'		 	" color scheme
 Plugin 'Lokaltog/vim-easymotion'		" simple search
@@ -57,6 +57,9 @@ Plugin 'christoomey/vim-tmux-navigator'		" Tmux seamless navigation
 "Plugin 'Valloric/YouCompleteMe'     " Auto complete
 Plugin 'xolox/vim-misc'     " vim notes dependency 
 Plugin 'xolox/vim-notes'     " Easy note taking vim plugin 
+Plugin 'Galooshi/vim-import-js' "import js dependencies - depends on npm install -g import-js
+Plugin 'w0rp/ale' "Check syntax (linting) and fix files asynchronously,
+Plugin 'mxw/vim-jsx'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
