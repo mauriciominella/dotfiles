@@ -88,7 +88,7 @@ nnoremap <F9> :.w !bash<CR>
 nmap <silent> <C-k> :ALENext<cr>
 nmap <silent> <C-j> :ALEXPrevious<cr>
 
-nnoremap <leader>g :exe 'Ag!' expand('<cword>')<cr>
+nnoremap <leader>s :exe 'Ag!' expand('<cword>')<cr>
 
 " display numbers in the tabs
 set showtabline=2  " 0, 1 or 2; when to use a tab pages line

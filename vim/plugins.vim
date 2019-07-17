@@ -30,7 +30,11 @@ set noshowmode
 let g:ctrlp_working_path_mode = 2
 let g:ctrlp_max_files = 600
 let g:ctrlp_max_depth = 5
-noremap <silent> <Leader>b :CtrlPBuffer<Return>	" open buffer fuzzy list
+noremap <silent> <leader>b :ctrlpbuffer<return>	" open buffer fuzzy list
+
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](\.git|\.hg|\.svn|_site|node_modules)$',
+  \ }
 
 
 """"""""""""""""""""""""""""""
