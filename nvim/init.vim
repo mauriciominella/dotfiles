@@ -135,9 +135,6 @@ catch
   echo 'Denite not installed. It should work after running :PlugInstall'
 endtry
 
-
-" === gutentags.nvim === "
-
 " === Coc.nvim === "
 " use <tab> for trigger completion and navigate to next complete item
 function! s:check_back_space() abort
@@ -195,6 +192,7 @@ let g:ale_fix_on_save = 1
 let g:ctrlp_working_path_mode = 2
 let g:ctrlp_max_files = 600
 let g:ctrlp_max_depth = 5
+let g:ctrlp_max_height = 20
 noremap <silent> <leader>b :ctrlpbuffer<return>	" open buffer fuzzy list
 
 " open files in a new tab by default

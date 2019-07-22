@@ -24,6 +24,9 @@ call plug#begin('~/.config/nvim/plugged')
 " Trailing whitespace highlighting & automatic fixing
 Plug 'ntpeters/vim-better-whitespace'
 
+
+Plug 'terryma/vim-multiple-cursors'		" multiple cursors
+
 Plug 'tpope/vim-surround'
 
 " auto-close plugin
@@ -100,7 +103,7 @@ Plug 'simeji/winresizer'                   " Easy window resize
 
 Plug 'vim-scripts/tComment'                        " Comment easily with gcc
 
-Plug 'ludovicchabant/vim-gutentags'
+" Plug 'ludovicchabant/vim-gutentags'
 Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
 
 " Initialize plugin system
