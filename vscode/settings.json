@@ -22,7 +22,6 @@
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "java.errors.incompleteClasspath.severity": "ignore",
-    "vim.statusBarColorControl": true,
     "vim.visualstar": true,
     "vim.easymotion": true,
     "workbench.colorCustomizations": {
@@ -42,5 +41,6 @@
     "files.watcherExclude": {
         "**/build/**": true
     },
-    "workbench.colorTheme": "Visual Studio Light"
+    "editor.highlightActiveIndentGuide": false,
+    "workbench.colorTheme": "Solarized Light"
 }
