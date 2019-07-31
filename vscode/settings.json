@@ -24,11 +24,6 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "vim.visualstar": true,
     "vim.easymotion": true,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
-    },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "eslint.autoFixOnSave": true,
     "editor.tabSize": 2,

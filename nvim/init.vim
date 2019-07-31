@@ -176,6 +176,9 @@ let g:NERDTreeDirArrowCollapsible = '⬎'
 " Hide certain files and directories from NERDTree
 let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]', '\.idea$[[dir]]', '\.sass-cache$']
 
+" -- vim notex ----
+let g:notes_directories = ['~/Notes/mminella-dev-notes']
+
 """"""""""""""""""""""""""""""
 " alex fixer
 """""""""""""""""""""""""""""

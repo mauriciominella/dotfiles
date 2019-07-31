@@ -106,5 +106,8 @@ Plug 'vim-scripts/tComment'                        " Comment easily with gcc
 " Plug 'ludovicchabant/vim-gutentags'
 Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
 
+Plug 'xolox/vim-misc'     " vim notes dependency
+Plug 'xolox/vim-notes'     " Easy note taking vim plugin
+
 " Initialize plugin system
 call plug#end()
