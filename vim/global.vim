@@ -23,6 +23,9 @@ let g:airline_theme='onedark'
 let g:onedark_termcolors=256
 set background=dark
 
+" changing the line number color
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+
 
 set number
 set hlsearch				" highlight search terms
