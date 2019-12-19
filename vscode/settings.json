@@ -1,6 +1,6 @@
 {
     "vim.disableAnnoyingNeovimMessage": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -40,5 +40,8 @@
     "editor.detectIndentation": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "Solarized Light"
+    "workbench.colorTheme": "Material Theme",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
 }

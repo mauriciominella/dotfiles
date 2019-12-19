@@ -116,4 +116,4 @@ nmap <silent> <leader>q :Test<CR>
 """"""""""""""""""""""""""""""
 " vim-notes
 """"""""""""""""""""""""""""""
-:let g:notes_directories = ['~/Notes/mminella-dev-notes']
+:let g:notes_directories = ['~/Notes/mminella-dev-notes/notes']
