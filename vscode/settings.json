@@ -43,5 +43,7 @@
     "workbench.colorTheme": "Material Theme",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
-    }
+    },
+    "MarkdownPaste.path": "./attachments/",
+    "markdown-preview-enhanced.liveUpdate": true
 }

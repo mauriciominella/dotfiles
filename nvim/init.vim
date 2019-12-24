@@ -178,6 +178,7 @@ let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]', '\.idea$[[dir
 
 " -- vim notex ----
 let g:notes_directories = ['~/Notes/mminella-dev-notes/notes']
+let g:notes_suffix = '.md'
 
 """"""""""""""""""""""""""""""
 " alex fixer
