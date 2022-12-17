@@ -1,49 +1,82 @@
 {
-    "vim.disableAnnoyingNeovimMessage": true,
-    "window.zoomLevel": 0,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        "**/*.pyc": true,
-        "**/node_modules": true,
-        "**/build": true,
-        "**/.happypack": true,
-        "**/.scannerwork": true,
-        "**/coverage": true
-    },
-    "vim.disableAnnoyingGcMessage": true,
-    "editor.minimap.enabled": false,
-    "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "all",
-    "extensions.ignoreRecommendations": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "java.errors.incompleteClasspath.severity": "ignore",
-    "vim.visualstar": true,
-    "vim.easymotion": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "eslint.autoFixOnSave": true,
-    "editor.tabSize": 2,
-    "breadcrumbs.enabled": true,
-    "zenMode.restore": true,
-    "zenMode.hideTabs": false,
-    "zenMode.hideStatusBar": false,
-    "zenMode.hideLineNumbers": false,
-    "zenMode.hideActivityBar": false,
-    "files.watcherExclude": {
-        "**/build/**": true
-    },
-    "editor.highlightActiveIndentGuide": false,
-    "editor.detectIndentation": false,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "workbench.colorTheme": "Material Theme",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "MarkdownPaste.path": "./attachments/",
-    "markdown-preview-enhanced.liveUpdate": true
+  "vim.disableAnnoyingNeovimMessage": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": true,
+    "**/node_modules": true,
+    "**/build": true,
+    "**/.happypack": true,
+    "**/.scannerwork": true,
+    "**/coverage": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "vim.disableAnnoyingGcMessage": true,
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "extensions.ignoreRecommendations": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "vim.visualstar": true,
+  "vim.easymotion": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "breadcrumbs.enabled": true,
+  "zenMode.restore": true,
+  "zenMode.hideTabs": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideActivityBar": false,
+  "files.watcherExclude": {
+    "**/build/**": true
+  },
+  "editor.detectIndentation": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "MarkdownPaste.path": "./attachments/",
+  "markdown-preview-enhanced.liveUpdate": true,
+  "python.jediEnabled": false,
+  "python.pythonPath": "/Users/mauricio/.pyenv/versions/jira/bin/python",
+  "workbench.colorTheme": "Material Theme High Contrast",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "Wscats.eno"
+  },
+  "python.languageServer": "Pylance",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "code-runner.executorMap": {
+    "javascript": "$workspaceRoot/node_modules/.bin/babel-node --harmony $fullFileName"
+  },
+  "python.defaultInterpreterPath": "/Users/mauricio/.pyenv/versions/jira/bin/python",
+  "material-ui-snippets.showNotesOnStartup": false,
+  "svg.preview.mode": "svg",
+  "redhat.telemetry.enabled": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "githubPullRequests.pullBranch": "never",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
 }
