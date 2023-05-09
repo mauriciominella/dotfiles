@@ -36,7 +36,7 @@ Plug 'rstacruz/vim-closer'
 Plug 'easymotion/vim-easymotion'
 
 " Intellisense Engine
-Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
 " Tmux/Neovim movement integration
 Plug 'christoomey/vim-tmux-navigator'
@@ -68,9 +68,6 @@ Plug 'heavenshell/vim-jsdoc'
 
 " === Syntax Highlighting === "
 
-" Syntax highlighting for nginx
-Plug 'chr4/nginx.vim'
-
 " Syntax highlighting for javascript libraries
 Plug 'othree/javascript-libraries-syntax.vim'
 
@@ -90,7 +87,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Icons
 Plug 'ryanoasis/vim-devicons'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+" Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 
 Plug 'ctrlpvim/ctrlp.vim'
@@ -108,6 +105,13 @@ Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
 
 Plug 'xolox/vim-misc'     " vim notes dependency
 Plug 'xolox/vim-notes'     " Easy note taking vim plugin
+
+" Telescope search
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
+
+" Solarized 8 theme
+Plug 'lifepillar/vim-solarized8'
 
 " Initialize plugin system
 call plug#end()

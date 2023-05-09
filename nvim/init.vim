@@ -224,6 +224,9 @@ let g:airline_skip_empty_sections = 1
 
 " Smartly uniquify buffers names with similar filename, suppressing common parts of paths.
 let g:airline#extensions#tabline#formatter = 'unique_tail'
+" show the buffer numbers
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
 " Custom setup that removes filetype/whitespace from default vim airline bar
 let g:airline#extensions#default#layout = [['a', 'b', 'c'], ['x', 'z', 'warning', 'error']]
@@ -289,16 +292,18 @@ let g:signify_sign_delete = '-'
 " Enable true color support
 set termguicolors
 
+" colorscheme OceanicNextLight
 " Editor theme
 set background=dark
+" autocmd vimenter * ++nested colorscheme solarized8
 try
-  colorscheme OceanicNext
+  colorscheme OceanicNextLight
 catch
   colorscheme slate
 endtry
 
 " Vim airline theme
-let g:airline_theme='space'
+let g:airline_theme='google_light'
 
 " Add custom highlights in method that is executed every time a
 " colorscheme is sourced
@@ -423,6 +428,18 @@ nmap <leader>z :JsDoc<CR>
 " Used when you want to paste over something without it getting copied to
 " Vim's default buffer
 vnoremap <leader>p "_dP
+
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+" Remap keys for gotos
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
 " ============================================================================ "
 " ===                                 MISC.                                === "
