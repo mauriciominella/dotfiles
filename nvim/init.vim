@@ -434,12 +434,17 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <leader>cb <cmd>Telescope current_buffer_fuzzy_find<cr>
+nnoremap <leader>ct <cmd>Telescope current_buffer_tags<cr>
 
 " Remap keys for gotos
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" coc-igt
+nmap gb <Plug>(coc-git-status)
 
 " ============================================================================ "
 " ===                                 MISC.                                === "
@@ -451,6 +456,14 @@ nmap <leader>s :CtrlPBufTag<CR>
 
 " Pressing Ctrl-L leaves insert mode in evim, so why not in regular vim, too.
 :imap <C-L> <Esc>
+
+" This allows you to use the enter key as to autocomplete suggetions
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+
+
+" copy the current buffer file path to the clipboard
+nnoremap <Leader>c :let @+=expand('%:')<CR>
+
 
 " Automaticaly close nvim if NERDTree is only thing left open
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
