@@ -147,6 +147,8 @@ inoremap <silent><expr> <TAB>
       \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
 
+
+
 "Close preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 
@@ -444,7 +446,9 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
 " coc-igt
-nmap gb <Plug>(coc-git-status)
+" nmap gb <Plug>(coc-git-status)
+
+nmap gb :CocCommand git.showBlameDoc<CR>
 
 " ============================================================================ "
 " ===                                 MISC.                                === "
@@ -462,7 +466,8 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
 
 " copy the current buffer file path to the clipboard
-nnoremap <Leader>c :let @+=expand('%:')<CR>
+nmap cp :let @+=expand('%:')<CR>
+
 
 
 " Automaticaly close nvim if NERDTree is only thing left open
