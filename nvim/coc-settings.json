@@ -6,5 +6,6 @@
   "diagnostic.errorSign": "•",
   "diagnostic.warningSign": "•",
   "diagnostic.infoSign": "•",
-  "coc.preferences.jumpCommand": "tabe" 
+  "coc.preferences.jumpCommand": "tabe",
+  "typescript.preferences.importModuleSpecifier": "relative"
 }
