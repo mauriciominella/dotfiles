@@ -182,7 +182,9 @@ let g:NERDTreeIgnore = ['^\.DS_Store$', '^tags$', '\.git$[[dir]]', '\.idea$[[dir
 let g:notes_directories = ['~/Notes/mminella-dev-notes/notes']
 let g:notes_suffix = '.md'
 let g:notes_smart_quotes = 0
-:let g:notes_tab_indents=0
+:let g:notes_tab_indents = 0
+let g:notes_ruler_text = 0
+let g:notes_conceal_url = 0
 
 """"""""""""""""""""""""""""""
 " alex fixer
@@ -296,15 +298,16 @@ let g:signify_sign_delete = '-'
 " Enable true color support
 set termguicolors
 
-" colorscheme OceanicNextLight
+:colorscheme solarized8
 " Editor theme
-set background=dark
+" set background=dark
 " autocmd vimenter * ++nested colorscheme solarized8
-try
-  colorscheme OceanicNextLight
-catch
-  colorscheme slate
-endtry
+" try
+"   colorscheme OceanicNext 
+"   # colorscheme evening 
+" catch
+"   colorscheme OceanicNextLight
+" endtry
 
 " Vim airline theme
 let g:airline_theme='google_light'
