@@ -1,0 +1,118 @@
+═══════════════════════════════════════════════════════════════
+  NEOVIM CHEATSHEET                            leader = ,
+═══════════════════════════════════════════════════════════════
+
+FILES / BUFFERS
+  ;             Telescope buffers
+  ,o   ,ff      Find files
+  ,g   ,fg      Live grep
+  ,j            Grep word under cursor
+  ,b   ,fb      Buffers
+  ,fh           Help tags
+  ,cb           Current buffer fuzzy
+  ,ct           Current buffer tags
+  ,s            LSP document symbols
+
+FILE TREE
+  ,t            Toggle neo-tree
+  ,f            Reveal current file in tree
+
+WINDOWS / SPLITS
+  C-h C-j C-k C-l   Move between splits (also into tmux panes)
+  <C-w>s        Split horizontal
+  <C-w>v        Split vertical
+  <C-w>=        Equalize split sizes
+  <C-w>o        Close all other splits
+  <C-w>q  <C-w>c  Close current split
+  <C-w>H/J/K/L  Move split to far left/down/up/right
+  :sp / :vsp    Split horizontal / vertical
+  :q            Close split
+
+LSP / NAVIGATION
+  gd   ,dd      Go to definition
+  gy            Go to type definition
+  gi   ,dj      Go to implementation
+  gr   ,dr      Find references
+  K             Hover docs
+  ,rn           Rename symbol
+  ,ca           Code action
+
+GIT
+  gb            Git blame current line (gitsigns)
+  :Git          Fugitive status / commands
+
+EDITING
+  gcc           Comment line
+  gc  (visual)  Comment selection
+  ,w            Flash jump
+  ,z            Generate JsDoc
+  ,y            Strip trailing whitespace
+  <C-k>         Snippet expand / jump
+  cs"'  ds"  ysiw"   Surround: change / delete / add (vim-surround)
+
+SEARCH / MISC
+  ,h            Find & replace prompt
+  ,/   ,c       Clear search highlight
+  <Space>  -    PageDown / PageUp
+  cp            Copy file path to clipboard
+  ,p   ,P       Paste from system clipboard
+  ,y   ,d       (visual) Yank / del to system clipboard
+  w!!           Sudo write
+  <C-L>         (insert) Escape
+
+CLAUDE CODE
+  ,ac           Toggle Claude split
+  ,af           Focus Claude window
+  ,ar           Resume previous session
+  ,aC           Continue last session
+  ,am           Select Claude model
+  ,ab           Add current buffer to context
+  ,as (visual)  Send selection to Claude
+  ,as (in tree) Add file to context
+  ,aa           Accept proposed diff (or :w)
+  ,ad           Reject proposed diff (or :q)
+
+CONFIG / HEALTH
+  :Cheat        This cheatsheet
+  :Lazy         Plugin manager
+  :Mason        LSP / formatter installer
+  :checkhealth  Diagnostics
+
+═══════════════════════════════════════════════════════════════
+  TMUX                                          prefix = C-a
+═══════════════════════════════════════════════════════════════
+
+PANES / WINDOWS
+  C-a u         Split horizontal (below)
+  C-a o         Split vertical (right)
+  C-a c         New window (in current path)
+  C-a h j k l   Select pane (vim-style)
+  C-h C-l       Prev / next window
+  C-h/j/k/l     Smart pane jump (also into vim/nvim splits)
+  S-Left/Right  Resize pane horizontally
+  S-Up/Down     Resize pane vertically
+  C-a t         Open vim in vertical split
+  C-a K         Kill current session
+  C-a r         Reload tmux.conf
+
+AGENT NOTIFICATIONS
+  C-a b         Toggle silence-alert on current window (30s)
+  C-a m         Toggle activity-alert on current window
+  (status bar flashes red when any window receives a bell;
+   Claude Code rings the bell on Stop + Notification hooks)
+
+SESSIONS
+  C-a O         Open sessionx (fzf session picker)
+  C-a s         List sessions (built-in)
+  C-a $         Rename current session
+  C-a d         Detach
+
+PLUGINS (TPM)
+  C-a I         Install plugins
+  C-a U         Update plugins
+  C-a alt-u     Uninstall plugins not in conf
+
+═══════════════════════════════════════════════════════════════
+  Config: ~/git/dotfiles/nvim  +  ~/git/dotfiles/tmux
+  In terminal: `nvimcheat`     In nvim: `:Cheat`     Close: q
+═══════════════════════════════════════════════════════════════

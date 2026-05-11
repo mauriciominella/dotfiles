@@ -1,10 +1,10 @@
-# ctrl-p plugin dependency
-# apt-get install silversearcher-ag -y
-# apt-get install gnome-vim -y
+#!/usr/bin/env bash
+set -e
 
-# git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+mkdir -p ~/.config/nvim
 
-ln -s ~/git/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
-ln -s ~/git/dotfiles/nvim/plugins.vim ~/.config/nvim/plugins.vim
-ln -s ~/git/dotfiles/nvim/space.vim ~/.config/nvim/space.vim
-ln -s ~/git/dotfiles/nvim/coc-settings.json ~/.config/nvim/coc-settings.json
+ln -sfn ~/git/dotfiles/nvim/init.lua ~/.config/nvim/init.lua
+ln -sfn ~/git/dotfiles/nvim/lua ~/.config/nvim/lua
+
+echo "Symlinks installed. Launch nvim — lazy.nvim will bootstrap and install plugins on first run."
+echo "After plugins install, run :Mason to verify LSP servers, and :checkhealth for diagnostics."
