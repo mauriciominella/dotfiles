@@ -42,7 +42,7 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "MarkdownPaste.path": "./attachments/",
   "markdown-preview-enhanced.liveUpdate": true,
@@ -50,7 +50,7 @@
   "python.pythonPath": "/Users/mauricio/.pyenv/versions/jira/bin/python",
   "workbench.colorTheme": "Material Theme High Contrast",
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
     "editor.defaultFormatter": "Wscats.eno"
@@ -73,7 +73,10 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
