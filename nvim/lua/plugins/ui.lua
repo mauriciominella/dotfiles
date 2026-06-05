@@ -37,6 +37,11 @@ return {
     },
     opts = {
       close_if_last_window = true,
+      window = {
+        mappings = {
+          ["/"] = "none", -- use native Vim search instead of the fuzzy finder
+        },
+      },
       filesystem = {
         hijack_netrw_behavior = "open_default",
         filtered_items = {
