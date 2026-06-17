@@ -24,7 +24,7 @@ Tip: press `prefix + ?` to open a fuzzy **command palette** of every binding bel
 | `prefix` `f` | Fuzzy-find a file (fzf) and open it in neovim, in a popup |
 | `prefix` `p` | Browse & preview markdown with glow, in a popup |
 | `prefix` `D` | Explore disk usage (ncdu) for the current dir, in a popup |
-| `prefix` `M` | Show the backend services the local **muse** is wired to (`/info`), in a popup |
+| `prefix` `M` | Show the backend services each local **muse** is wired to (`/info`), scanning ports 3000–3009, in a popup |
 | `prefix` `h` `j` `k` `l` | Move to pane left / down / up / right |
 | `prefix` `C-h` / `C-l` | Previous / next window |
 | `Shift` + arrows | Resize the active pane (no prefix needed) |
