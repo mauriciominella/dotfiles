@@ -20,6 +20,10 @@ Tip: press `prefix + ?` to open a fuzzy **command palette** of every binding bel
 | `prefix` `n` | Split right and open neovim on the current dir |
 | `prefix` `e` | Open neovim on the current dir in a floating popup |
 | `prefix` `\` | Floating scratch shell for one-off commands (`exit` closes it) |
+| `prefix` `F` | yazi file manager in a floating popup |
+| `prefix` `f` | Fuzzy-find a file (fzf) and open it in neovim, in a popup |
+| `prefix` `p` | Browse & preview markdown with glow, in a popup |
+| `prefix` `D` | Explore disk usage (ncdu) for the current dir, in a popup |
 | `prefix` `h` `j` `k` `l` | Move to pane left / down / up / right |
 | `prefix` `C-h` / `C-l` | Previous / next window |
 | `Shift` + arrows | Resize the active pane (no prefix needed) |
