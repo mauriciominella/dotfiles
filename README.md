@@ -17,6 +17,8 @@ Tip: press `prefix + ?` to open a fuzzy **command palette** of every binding bel
 | `prefix` `o` | Split pane right, in the current dir |
 | `prefix` `c` | New window, in the current dir |
 | `prefix` `t` | Split right and open vim |
+| `prefix` `n` | Split right and open neovim on the current dir |
+| `prefix` `e` | Open neovim on the current dir in a floating popup |
 | `prefix` `h` `j` `k` `l` | Move to pane left / down / up / right |
 | `prefix` `C-h` / `C-l` | Previous / next window |
 | `Shift` + arrows | Resize the active pane (no prefix needed) |
