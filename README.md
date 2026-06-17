@@ -34,6 +34,7 @@ Smart `Ctrl-h/j/k/l` pane-and-vim navigation is also active (via vim-tmux-naviga
 ### Status bar & visuals (Solarized)
 
 - **Active tab** highlighted with a solid blue pill; inactive tabs stay dim.
+- **Tab labels** auto-show the active pane's command + dir, but a manual rename (`prefix` `,`) takes over and sticks until you re-enable auto naming (`setw automatic-rename on`).
 - **Git branch badge** for the active pane on the right of the status bar.
 - **Per-split git branch** shown on each pane's top border (each split shows its own).
 - **`SYNC` flag** (loud red) whenever `synchronize-panes` is on, so you don't fan-fire a command into every split.
