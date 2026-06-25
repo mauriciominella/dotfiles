@@ -23,6 +23,20 @@ extract() {
   printf '%s' "$1" | perl -ne 'print "$1" if /\Q'"$2"'\E<\/td><td[^>]*>([^<]*)/'
 }
 
+# Resolve the working directory of whoever is listening on a port. We go
+# port -> listening PID -> its cwd via lsof; the dev server is launched from
+# the muse's front-end folder, so this points straight at the checkout/worktree.
+port_cwd() {
+  # $1 = port
+  local pid cwd
+  pid=$(lsof -ti "tcp:$1" -sTCP:LISTEN 2>/dev/null | head -1)
+  [ -z "$pid" ] && return
+  cwd=$(lsof -a -p "$pid" -d cwd -Fn 2>/dev/null | sed -n 's/^n//p')
+  # tidy: $HOME -> ~ and drop the trailing /front-end that's noise on every row
+  cwd=${cwd%/front-end}
+  printf '%s' "${cwd/#$HOME/~}"
+}
+
 found=0
 for port in $(seq 3000 3009); do
   info=$(curl -s --max-time 1 "http://localhost:${port}/info")
@@ -34,7 +48,9 @@ for port in $(seq 3000 3009); do
   [ -z "$core" ] && [ -z "$cerberus" ] && continue
 
   found=1
+  dir=$(port_cwd "$port")
   printf '\033[1;34m── :%s ──\033[0m\n' "$port"
+  printf '  \033[1;33mFolder  \033[0m %s\n' "${dir:-—}"
   printf '  \033[1;32mCore    \033[0m %s\n' "${core:-—}"
   printf '  \033[1;35mCerberus\033[0m %s\n\n' "${cerberus:-—}"
 done
